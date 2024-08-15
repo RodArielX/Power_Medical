@@ -1,0 +1,90 @@
+/* Estilos generales para el contenedor de fondo */
+.background-container {
+    background-color: #007bff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Cabecera */
+.header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los grupos del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Estilos para los campos de entrada */
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 20px;
+}
